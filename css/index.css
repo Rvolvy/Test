@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #232323;
+}
+
+header{
+  background-color: #232323;
+}
+
+.navigasi{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.judul{
+  color: white;
+  font-size: 40px;
+  font-family: 'Secular One', sans-serif;
+  transition: 0.5s;
+}
+
+.judul:hover{
+  color: #00d9ff;
+}
+
+a{
+  text-decoration: none;
+}
+
+.link{
+  display: flex;
+  align-items: center;
+}
+
+.list{
+  display: flex;
+}
+
+.list li{
+  display: flex;
+  margin-left: 20px;
+}
+
+.list li a ion-icon{
+  color: white;
+  background-color: #131313;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 15px;
+  transition: 0.5s;
+}
+
+.list li a ion-icon:hover{
+  background-color: #00d9ff;
+}
+
+.about{
+  color: white;
+  background-color: #131313;
+  font-family: 'Secular One', sans-serif;
+  font-size: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 17px;
+  padding-right: 17px;
+  border-radius: 20px;
+  margin-left: 55px;
+  transition: 0.5s;
+}
+
+.about:hover{
+  background-color: #00d9ff;
+}
+
+.welcome{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  height: 88vh;
+}
+
+.welcometulisan{
+  color: white;
+  font-size: 50px;
+  font-family: 'Secular One', sans-serif;
+  transition: 0.5s;
+}
+
+.welcometulisan:hover{
+  color: #00d9ff;
+  transform: scale(1.05);
+}
+
+.kotak1{
+  display: flex;
+  background-color: white;
+  padding: 30px;
+  margin: 50px;
+  border-radius: 30px;
+}
+
+.orang{
+  height: 380px;
+}
+
+.kotakdalam{
+  display: flex;
+  align-items: center;
+}
+
+.kotakdalam div{
+  margin-left: 30px;
+}
+
+.kotakjudul{
+  font-family: 'Secular One', sans-serif;
+}
+
+.kotaktulisan{
+  font-family: 'Secular One', sans-serif;
+}
+
+.kotak2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  margin: 50px;
+}
+
+.chapter{
+  width: 330px;
+  height: 600px;
+  transition: 0.5s;
+}
+
+.chapter:hover{
+  transform: scale(1.05);
+  opacity: 0.5;
+}
